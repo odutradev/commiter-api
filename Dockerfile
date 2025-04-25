@@ -10,7 +10,7 @@ RUN npm install --only=production
 COPY index.js ./
 
 # Expõe a porta em que o app escuta
-EXPOSE 5001
+EXPOSE 3000
 
 # Comando padrão para iniciar a aplicação
 CMD ["node", "index.js"]
